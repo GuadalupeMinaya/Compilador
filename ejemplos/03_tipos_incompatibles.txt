@@ -1,0 +1,2 @@
+int cantidad;
+cantidad = 3.5;

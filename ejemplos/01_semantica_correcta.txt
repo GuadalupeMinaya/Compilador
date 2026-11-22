@@ -1,0 +1,10 @@
+int contador;
+float promedio;
+
+int sumar(int a, int b) {
+    return a + b;
+}
+
+contador = sumar(3, 4);
+promedio = contador + 2.5;
+print("Resultado", promedio);

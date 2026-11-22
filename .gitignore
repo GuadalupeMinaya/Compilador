@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# PyInstaller (el ejecutable final se publica como Release, no se sube al repo)
+build/
+dist/
+*.spec
+
+# Lexer en C compilado automáticamente en Linux/macOS
+analizador_extendido
+analizador_extendido.exe

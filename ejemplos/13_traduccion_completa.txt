@@ -1,0 +1,25 @@
+// Programa demostrativo de la cuarta etapa: mini-C -> JavaScript.
+int cuadrado(int n) {
+    return n * n;
+}
+
+float mitad(float numero) {
+    return numero / 2.0;
+}
+
+int main(void) {
+    int n = 5;
+    float promedio = mitad(9);
+    print("Numero:", n);
+    print("Cuadrado:", cuadrado(n));
+    print("Mitad:", promedio);
+    if (n > 3) {
+        print("Es mayor que 3");
+    } else {
+        print("Es 3 o menor");
+    }
+    for (int i = 0; i < 3; i = i + 1) {
+        print("Iteracion", i);
+    }
+    return 0;
+}

@@ -1,0 +1,6 @@
+int calcular(void) {
+    int base;
+    int total;
+    total = base + 5;
+    return total;
+}
